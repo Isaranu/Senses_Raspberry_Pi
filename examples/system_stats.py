@@ -17,8 +17,8 @@ userid = 'your-userid-number'
 key = 'your-registered-device-key'
 
 #Your desired sending data
-temp_slot = '0'
-cpu_perc_slot = '1'
+temp_slot = '1'
+cpu_perc_slot = '2'
 
 while True:
   #Read CPU temperature of RPi
