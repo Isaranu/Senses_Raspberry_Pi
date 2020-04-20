@@ -1,3 +1,4 @@
+import random
 from sensesiot import *
 
 #Get version of sensesiot.py
@@ -15,7 +16,7 @@ slotnum = 'your-slot-number-of-data'
 
 while True:
   
-  data = randrange(15,20) #replace-your-data-here
+  data = random.randrange(15,20) #replace-your-data-here
   
   #Send data to Senses IoT platform.
   res = senddata(userid, key, slotnum, data)
