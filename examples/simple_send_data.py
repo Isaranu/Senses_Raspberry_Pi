@@ -15,7 +15,7 @@ slotnum = 'your-slot-number-of-data'
 
 while True:
   
-  data = randrandrange(15,20) #replace-your-data-here
+  data = randrange(15,20) #replace-your-data-here
   
   #Send data to Senses IoT platform.
   res = senddata(userid, key, slotnum, data)
