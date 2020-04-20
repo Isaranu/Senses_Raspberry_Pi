@@ -10,10 +10,10 @@ def senddata(_userid,_devkey,_slotnum,_data):
         data = _data
 
         #Merge data
-        payload = {'userid':userid, 'devkey':devkey, 'slotnum':slotnum,'data':data}
+        payload = userid + '/' + devkey + '/' + slotnum + '/' + str(data)
 
         #Send to Sensesiot.com
-        r = requests.get('http://www.sensesiot.com:4000/send',params=payload)
+        r = requests.get('http://www.sensesiot.com:4000/send/'+payload)
         response = r.text
         
         #Response from server
