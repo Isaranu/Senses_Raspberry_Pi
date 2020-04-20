@@ -18,7 +18,7 @@ while True:
   data = randrandrange(15,20) #replace-your-data-here
   
   #Send data to Senses IoT platform.
-  res = send(userid, key, slotnum, data)
+  res = senddata(userid, key, slotnum, data)
 
   #Response
   print(res)
