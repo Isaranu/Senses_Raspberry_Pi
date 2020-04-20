@@ -12,7 +12,7 @@ userid = 'your-userid-number'
 key = 'your-registered-device-key'
 
 #Your desired sending data
-slotnum = 'your-slot-number-of-data'
+slotnum = '1' #Set slot data number 1
 
 while True:
   
